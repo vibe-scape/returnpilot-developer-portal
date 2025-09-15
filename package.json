@@ -3,6 +3,7 @@
     "type": "module",
     "scripts": {
         "dev": "mintlify dev",
+        "build": "mintlify dev",
         "watch": "mintlify dev"
     }
 }
