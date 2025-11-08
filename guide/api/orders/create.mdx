@@ -144,16 +144,6 @@ Method: `POST`
     Maximum character length: `100`
 </ResponseField>
 
-<ResponseField name="phone" type="string">
-    The customer phone number.
-
-    This must be formatted using the [E.164 standard](/guide/concepts/formatting#phone-numbers).
-
-    Minimum character length: `7`
-
-    Maximum character length: `30`
-</ResponseField>
-
 <ResponseField name="line_1" type="string" required>
     Line 1 of the customer address.
 
@@ -224,7 +214,6 @@ The response will contain the following content:
         }],
         "name": "Schaefer, Nolan and Wehner",
         "email": "dave45@gmail.com",
-        "phone": "+12069536978",
         "line_1": "492 Quitzon Avenue Apt. 157",
         "line_2": "Apt. 027",
         "city": "Gustside",
@@ -252,7 +241,6 @@ The response will contain the following content:
         }],
         "name": "Schaefer, Nolan and Wehner",
         "email": "dave45@gmail.com",
-        "phone": "+12069536978",
         "line_1": "492 Quitzon Avenue Apt. 157",
         "line_2": "Apt. 027",
         "city": "Gustside",
